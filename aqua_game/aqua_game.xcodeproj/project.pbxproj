@@ -15,8 +15,8 @@
 		59832C1D1E73D93E00F0F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832C1B1E73D93E00F0F519 /* Main.storyboard */; };
 		59832C1F1E73D93E00F0F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59832C1E1E73D93E00F0F519 /* Assets.xcassets */; };
 		59832C221E73D93E00F0F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832C201E73D93E00F0F519 /* LaunchScreen.storyboard */; };
-		59832C311E73E00400F0F519 /* SceneKit Particle System.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 59832C2F1E73E00400F0F519 /* SceneKit Particle System.scnp */; };
-		59832C321E73E00400F0F519 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 59832C301E73E00400F0F519 /* spark.png */; };
+		599A11AE1E74A1C600AB90BB /* SceneKit Particle System.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 599A11AC1E74A1C600AB90BB /* SceneKit Particle System.scnp */; };
+		599A11AF1E74A1C600AB90BB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 599A11AD1E74A1C600AB90BB /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		59832C1E1E73D93E00F0F519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59832C211E73D93E00F0F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59832C231E73D93E00F0F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59832C2F1E73E00400F0F519 /* SceneKit Particle System.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "SceneKit Particle System.scnp"; sourceTree = "<group>"; };
-		59832C301E73E00400F0F519 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		599A11AC1E74A1C600AB90BB /* SceneKit Particle System.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "SceneKit Particle System.scnp"; sourceTree = "<group>"; };
+		599A11AD1E74A1C600AB90BB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +48,8 @@
 		59832C051E73D93E00F0F519 = {
 			isa = PBXGroup;
 			children = (
-				59832C2F1E73E00400F0F519 /* SceneKit Particle System.scnp */,
-				59832C301E73E00400F0F519 /* spark.png */,
+				599A11AC1E74A1C600AB90BB /* SceneKit Particle System.scnp */,
+				599A11AD1E74A1C600AB90BB /* spark.png */,
 				59832C101E73D93E00F0F519 /* aqua_game */,
 				59832C0F1E73D93E00F0F519 /* Products */,
 			);
@@ -141,9 +141,9 @@
 				59832C1D1E73D93E00F0F519 /* Main.storyboard in Resources */,
 				59832C141E73D93E00F0F519 /* GameScene.sks in Resources */,
 				59832C1F1E73D93E00F0F519 /* Assets.xcassets in Resources */,
-				59832C321E73E00400F0F519 /* spark.png in Resources */,
+				599A11AF1E74A1C600AB90BB /* spark.png in Resources */,
 				59832C221E73D93E00F0F519 /* LaunchScreen.storyboard in Resources */,
-				59832C311E73E00400F0F519 /* SceneKit Particle System.scnp in Resources */,
+				599A11AE1E74A1C600AB90BB /* SceneKit Particle System.scnp in Resources */,
 				59832C161E73D93E00F0F519 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +319,7 @@
 				59832C281E73D93E00F0F519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
