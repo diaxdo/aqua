@@ -20,6 +20,8 @@ class GameScene: SKScene {
     var gring = SKSpriteNode()
     var yring2 = SKSpriteNode()
     var yring3 = SKSpriteNode()
+    var button1 = SKSpriteNode()
+    var button2 = SKSpriteNode()
     
     override func didMove(to view: SKView) {
         violetnoodle = self.childNode(withName: "violetnoodle") as! SKSpriteNode
@@ -31,12 +33,41 @@ class GameScene: SKScene {
         pring = self.childNode(withName: "pring") as! SKSpriteNode
         yring2 = self.childNode(withName: "yring2") as! SKSpriteNode
         yring3 = self.childNode(withName: "yring3") as! SKSpriteNode
+        button1 = self.childNode(withName: "button1") as! SKSpriteNode
+        button2 = self.childNode(withName: "button2") as! SKSpriteNode
         
         let border = SKPhysicsBody(edgeLoopFrom: self.frame)
         border.friction = 0
         border.restitution = 1
         
         self.physicsBody = border
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let location = touch.location(in: self)
+            let node : SKNode = self.atPoint(location)
+            if node.name == "button1" {
+                print("buttonpressed")
+            }
+            if node.name == "button2" {
+                print("button2pressed")
+            }
+            }
+    }
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let location = touch.location(in: self)
+            let node : SKNode = self.atPoint(location)
+            if node.name == "button1" {
+                print("buttonpressed")
+            }
+            if node.name == "button1" {
+                print("buttonpressed")
+            }
+            if node.name == "button2" {
+                print("button2pressed")
+            }
+        }
     }
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
