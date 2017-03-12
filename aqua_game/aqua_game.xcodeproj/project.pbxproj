@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D57EA311E76033B00821B67 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D57EA301E76033B00821B67 /* music.mp3 */; };
+		0D57EA331E76034300821B67 /* bubblesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D57EA321E76034300821B67 /* bubblesound.mp3 */; };
 		0D63CB211E752454009AC1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D63CB201E752454009AC1A9 /* Assets.xcassets */; };
 		0D63CB231E75396A009AC1A9 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0D63CB221E75396A009AC1A9 /* Assets */; };
 		59832C121E73D93E00F0F519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832C111E73D93E00F0F519 /* AppDelegate.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D57EA301E76033B00821B67 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		0D57EA321E76034300821B67 /* bubblesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubblesound.mp3; sourceTree = "<group>"; };
 		0D63CB201E752454009AC1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		0D63CB221E75396A009AC1A9 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		59832C0E1E73D93E00F0F519 /* aqua_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aqua_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +72,8 @@
 		59832C101E73D93E00F0F519 /* aqua_game */ = {
 			isa = PBXGroup;
 			children = (
+				0D57EA321E76034300821B67 /* bubblesound.mp3 */,
+				0D57EA301E76033B00821B67 /* music.mp3 */,
 				0D63CB221E75396A009AC1A9 /* Assets */,
 				0D63CB201E752454009AC1A9 /* Assets.xcassets */,
 				59832C111E73D93E00F0F519 /* AppDelegate.swift */,
@@ -143,6 +149,8 @@
 			files = (
 				59832C1D1E73D93E00F0F519 /* Main.storyboard in Resources */,
 				0D63CB231E75396A009AC1A9 /* Assets in Resources */,
+				0D57EA331E76034300821B67 /* bubblesound.mp3 in Resources */,
+				0D57EA311E76033B00821B67 /* music.mp3 in Resources */,
 				59832C141E73D93E00F0F519 /* GameScene.sks in Resources */,
 				599A11AF1E74A1C600AB90BB /* spark.png in Resources */,
 				59832C221E73D93E00F0F519 /* LaunchScreen.storyboard in Resources */,
