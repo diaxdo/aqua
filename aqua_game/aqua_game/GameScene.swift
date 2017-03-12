@@ -79,7 +79,7 @@ class GameScene: SKScene {
         }
     }
     func bubbles() {
-        //run(SKAction.playSoundFileNamed("bubblesound.jpg", waitForCompletion: false))
+        run(SKAction.playSoundFileNamed("bubblesound.mp3", waitForCompletion: false))
         let bubble = SKSpriteNode(imageNamed: "bubble_1")
         bubble.position = leftShooter.position
         bubble.position.y += 1
@@ -99,7 +99,7 @@ class GameScene: SKScene {
         
     }
     func bubbles2() {
-        //run(SKAction.playSoundFileNamed("bubblesound.jpg", waitForCompletion: false))
+        run(SKAction.playSoundFileNamed("bubblesound.mp3", waitForCompletion: false))
         let bubble2 = SKSpriteNode(imageNamed: "bubble_1")
         bubble2.position = rightShooter.position
         bubble2.position.y += 1
