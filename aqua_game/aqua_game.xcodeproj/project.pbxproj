@@ -17,6 +17,7 @@
 		59832C221E73D93E00F0F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59832C201E73D93E00F0F519 /* LaunchScreen.storyboard */; };
 		599A11AE1E74A1C600AB90BB /* SceneKit Particle System.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 599A11AC1E74A1C600AB90BB /* SceneKit Particle System.scnp */; };
 		599A11AF1E74A1C600AB90BB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 599A11AD1E74A1C600AB90BB /* spark.png */; };
+		599A11B11E74CC2600AB90BB /* StartScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 599A11B01E74CC2600AB90BB /* StartScreen.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		59832C231E73D93E00F0F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		599A11AC1E74A1C600AB90BB /* SceneKit Particle System.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = "SceneKit Particle System.scnp"; sourceTree = "<group>"; };
 		599A11AD1E74A1C600AB90BB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		599A11B01E74CC2600AB90BB /* StartScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScreen.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				59832C111E73D93E00F0F519 /* AppDelegate.swift */,
 				59832C131E73D93E00F0F519 /* GameScene.sks */,
+				599A11B01E74CC2600AB90BB /* StartScreen.sks */,
 				59832C151E73D93E00F0F519 /* Actions.sks */,
 				59832C171E73D93E00F0F519 /* GameScene.swift */,
 				59832C191E73D93E00F0F519 /* GameViewController.swift */,
@@ -142,6 +145,7 @@
 				59832C141E73D93E00F0F519 /* GameScene.sks in Resources */,
 				59832C1F1E73D93E00F0F519 /* Assets.xcassets in Resources */,
 				599A11AF1E74A1C600AB90BB /* spark.png in Resources */,
+				599A11B11E74CC2600AB90BB /* StartScreen.sks in Resources */,
 				59832C221E73D93E00F0F519 /* LaunchScreen.storyboard in Resources */,
 				599A11AE1E74A1C600AB90BB /* SceneKit Particle System.scnp in Resources */,
 				59832C161E73D93E00F0F519 /* Actions.sks in Resources */,
