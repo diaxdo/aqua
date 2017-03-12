@@ -45,9 +45,9 @@ class GameScene: SKScene {
         border.restitution = 1
         
         self.physicsBody = border
-        let backgroundMusic = SKAudioNode(fileNamed: "music.mp3")
-        backgroundMusic.autoplayLooped = true
-        addChild(backgroundMusic)
+        //let backgroundMusic = SKAudioNode(fileNamed: "music.mp3")
+        //backgroundMusic.autoplayLooped = true
+        //addChild(backgroundMusic)
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
@@ -64,6 +64,7 @@ class GameScene: SKScene {
             }
     }
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        run(SKAction.playSoundFileNamed("exploysion.mp3", waitForCompletion: false))
         for touch in touches {
             let location = touch.location(in: self)
             let node : SKNode = self.atPoint(location)
@@ -79,7 +80,7 @@ class GameScene: SKScene {
         }
     }
     func bubbles() {
-        //run(SKAction.playSoundFileNamed("bubblesound.jpg", waitForCompletion: false))
+        //run(SKAction.playSoundFileNamed("exploysion.mp3", waitForCompletion: false))
         let bubble = SKSpriteNode(imageNamed: "bubble_1")
         bubble.position = leftShooter.position
         bubble.position.y += 1
@@ -99,7 +100,7 @@ class GameScene: SKScene {
         
     }
     func bubbles2() {
-        //run(SKAction.playSoundFileNamed("bubblesound.jpg", waitForCompletion: false))
+        //run(SKAction.playSoundFileNamed("exploysion.mp3", waitForCompletion: false))
         let bubble2 = SKSpriteNode(imageNamed: "bubble_1")
         bubble2.position = rightShooter.position
         bubble2.position.y += 1
